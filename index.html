@@ -146,6 +146,27 @@ a {
 .side:hover {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.side2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 150px;
+  border-right: 1px dashed rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
+  font-family: ‘SUIT Variable’, sans-serif;;
+  text-transform: uppercase;
+  letter-spacing: 0.0875rem;
+  font-size: 10px;
+  transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
+}
+.side:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
 .side .side__inner {
   position: relative;
   height: 100%;
@@ -432,23 +453,35 @@ p a:hover {
         <div class="top"><a href="#">DADA KIM</a></div>
         <div class="bottom">
             <a href="https://www.instagram.com/dada.kimm/">INSTAGRAM</a>
-            <a href="mailto:dada_jihyun@naver.com">EMAIL ME</a>
+            <a href="mailto:dadaist@kakao.com">EMAIL ME</a>
         </div>
     </div>
 </nav>
 
+<nav class="side2">
+  <ul class="anchornav">
+    <li><a href="#intro">Intro <span></span></a></li>
+    <li><a href="#about">About <span></span></a></li>
+    <li><a href="#clients">profile <span></span></a></li>
+    <li><a href="#portfolio">Skills <span></span></a></li>
+    <li><a href="#project">Projects <span></span></a></li>
+    <li><a href="#contact">Contact <span></span></a></li>
+</ul>
+
+</nav>
 <section class="section section--hello" id="hello">
     <div class="section__inner">
         <div class="block">
             <a class="pre" href="#intro"><span>#0</span>HELLO</a>
             <h2>안녕하세요.</h2>
-            <ul class="anchornav">
-                <li><a href="#intro">Intro <span>#1 만나서 반갑습니다.</span></a></li>
-                <li><a href="#about">About <span>#2 저는 이런 일을 합니다.</span></a></li>
-                <li><a href="#clients">profile <span>#3 Who did he work for?</span></a></li>
-                <li><a href="#portfolio">Portfolio <span>#4 What did he do?</span></a></li>
-                <li><a href="#contact">Contact <span>#5 Write him a message</span></a></li>
-            </ul>
+              <ul class="anchornav">
+                  <li><a href="#intro">Intro <span>#1 만나서 반갑습니다.</span></a></li>
+                  <li><a href="#about">About <span>#2 이런 일을 합니다.</span></a></li>
+                  <li><a href="#clients">profile <span>#3 이런 경험으로 성장했습니다.</span></a></li>
+                  <li><a href="#portfolio">Skills <span>#4 이러한 직무들을 해왔습니다.</span></a></li>
+                  <li><a href="#project">Projects <span>#5 진행했던 프로젝트입니다.</span></a></li>
+                  <li><a href="#contact">Contact <span>#6 우리, 만나서 가볍게 재밌는 이야기 많이 나누어보아요. :)</span></a></li>
+              </ul>
         </div>
     </div>
 </section>
@@ -498,16 +531,20 @@ p a:hover {
             앱 2,000만 다운로드까지 모든 업무를 경험하며,<br>
             최고의 성장 동력은 동료라는 것을 배웠습니다.</p>
               <p class="lead" style="font-size: 0.6rem;"><br>
-                2021년 09월 ~ 22년 현재: KUKKA 프로덕트실 PO<br>
+                <!-- 2021년 09월 ~ 22년 현재: KUKKA 프로덕트실 PO<br>
                 2020년 09월 ~ 21년 03월 : LALABREAD 신사업 기획총괄<br>
                 2017년 11월 ~ 20년 02월 : KAKAO STYLE(ZIGZAG) 디자인/콘텐츠/마케팅 매니저<br>
                 2016년 08월 ~ 17년 11월 : PPBSTUDIOS IT TEAM 팀장<br>
-                2015년 07월 ~ 16년 06월 : SOCKSTAZ 디자인팀 사원<br>
+                2015년 07월 ~ 16년 06월 : SOCKSTAZ 디자인팀 사원<br> -->
+                <br>Career<br>
+                2021 ~ / KUKKA / PO <br>
+                2020 ~ 2021 / LALABREAD / PO / Online Business Owner <br>
+                2017 ~ 2020 / KAKAO STYLE (ZIGZAG) / Contents Team Read / PM / Desgin / Marketing <br>
+                2016 ~ 2017 / PPBSTUDIOS / ITteam Read / PM / Web Publisher / Design <br>
+                2015 ~ 2016 / SOCKSTAZ / Design / Shop 운영 / Popup / Marketing <br>
               </p>
 
-              <p class="lead" style="font-size: 0.6rem;">
-                Deisgn, 
-              </p>
+          
         </div>
     </div>
 
@@ -520,19 +557,30 @@ p a:hover {
 
     <div class="section__inner">
         <div class="block">
-            <a class="pre" href="#portfolio"><span>#4</span>Portfolio</a>
-            <h2>Portfolio Item #1</h2>
-            <p class="lead">Here are some of his clients, he has had the pleasure working with.</p>
+            <a class="pre" href="#portfolio"><span>#4</span>Skills</a>
+            <h2>PM / Visual Designer / Web Designer / Web Publisher / User Researcher / UX / UI</h2>
+            <p class="lead">
+              Platform(ZIGZAG)<br>
+              Contents Editor / App Design / Event PO / Market Researcher<br><br>
+              SHOPS<br>
+              Cafe24 / Open Market / B2C / Seoul Design Festival / Offline Popup Store /
+              HTML / CSS / Data Analyst / Global E-commerce Platform PM / Web Renewal <br><br>
+              OTHERS<br>
+              F&B / Brand Renewal / In-house Culture / Online Business / O2O / B2B<br><br>
+              I LUV<br>
+              Myself / Startup / Design / Data / People / Art / Culture / Communication</p>
         </div>
     </div>
 </section>
 
 
-<section class="section section--portfolio" id="portfolio2">
+<section class="section section--portfolio" id="project">
     <div class="section__inner">
         <div class="block">
-            <h2>Portfolio Item #2</h2>
+          <a class="pre" href="#project"><span>#5</span>project</a>
+            <h2>Project List</h2>
             <p>Descripton of said portfolio item.</p>
+            <img src="https://cdn.shopify.com/s/files/1/0088/6620/1680/products/Tutti_1024x.progressive.jpg?v=1628139425">
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none" class="bottom">
@@ -541,13 +589,25 @@ p a:hover {
 </section>
 
 
+  <section class="section section--portfolio1" id="project">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+      <polygon points="100 10 0 0 0 10" />
+  </svg>
+          <h2>Project List</h2>
+          <p>Descripton of said portfolio item.</p>
+          <img src="https://cdn.shopify.com/s/files/1/0088/6620/1680/products/Tutti_1024x.progressive.jpg?v=1628139425">
+      </div>
+  </div>
+</section>
+
+
 <section class="section section--contact" id="contact">
     <div class="section__inner">
         <div class="block">
             <a class="pre" href="#contact"><span>#5</span>Get in touch</a>
-            <h2>For work inquiries<br>please email:<br>
-                <span><a href="mailto:hello@volkerotto.net">hello@volkerotto.net</a></span></h2>
-            <p class="lead">More links: <a href="https://dribbble.com/hellovolker">Dribbble</a>, <a href="https://twitter.com/hellovolker">Twitter</a> and <a href="https://www.linkedin.com/in/ottovolker">Linkedin</a>.</p>
+            <h2>For contact inquiries<br>please email:<br>
+                <span><a href="mailto:dadaist@kakao.com">dadaist@kakao.com</a></span></h2>
+            <p class="lead">More links: <a href="https://instagram.com/dada.kimm/">Instagram</a>(dada.kimm)</p>
         </div>
     </div>
 </section>
